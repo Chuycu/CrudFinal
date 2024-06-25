@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CrudClase" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <style name="error_toast">
+        <item name="stTextBold">true</item> // Negrilla el texto
+        <item name="stTextColor">#000000</item> // color letra
+        // fuente letra en font pondriamos la fuente personalizada
+        <item name="stTextSize">14sp</item> // tamaño letra
+        <item name="stColorBackground">#E6AAAA</item> // Color de fonto
+        // Fondo solid o solido
+        <item name="stStrokeWidth">2dp</item> // Reborde de la alerta
+        <item name="stStrokeColor">#000000</item> // Color del reborde
+<!--        <item name="stIconStart">@drawable/icon_error</item> // Icono de la alerta izquierda o derecha-->
+        <item name="stLength">SHORT</item> LONG or SHORT // atributos normales short (1.2 segundos) short(3 segundos)
+        // top or center // posicion de la alerta
+        <item name="stRadius">2dp</item> // Radio de la alerta
+    </style>
+
+    <style name="success_toast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#0B101C</item>
+        <item name="stTextSize">14sp</item>
+        <item name="stColorBackground">#4E5EB3</item>
+        <item name="stSolidBackground">true</item>
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stStrokeColor">#4E5EB3</item>
+<!--        <item name="stIconStart">@drawable/baseline_android_24</item>-->
+        <item name="stLength">LONG</item> LONG or SHORT
+        <item name="stRadius">3dp</item>
+    </style>
+
+    <style name="Theme.CrudClase" parent="Base.Theme.CrudClase" />
+</resources>
